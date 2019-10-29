@@ -1,0 +1,11 @@
+build() {
+        # add manjaro bootsplash
+	add_binary /usr/lib/firmware/bootsplash-themes/manjaro-muser/bootsplash /usr/lib/firmware/bootsplash-themes/manjaro-muser/bootsplash
+}
+
+help() {
+	echo "This hook includes splash in the initramfs image."
+}
+
+# vim: set ft=sh:
+#EOF 
